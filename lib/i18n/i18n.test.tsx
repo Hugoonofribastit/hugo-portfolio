@@ -8,7 +8,7 @@ import { es } from "./es";
 function Probe() {
   const t = useT();
   const { toggle } = useLang();
-  return <button onClick={toggle}>{t.nav.work}</button>;
+  return <button onClick={toggle}>{t.nav.about}</button>;
 }
 
 describe("i18n", () => {
@@ -19,11 +19,11 @@ describe("i18n", () => {
       </LanguageProvider>,
     );
     const btn = screen.getByRole("button");
-    expect(btn.textContent).toBe("Work");
+    expect(btn.textContent).toBe("About");
     act(() => {
       btn.click();
     });
-    expect(btn.textContent).toBe("Trabajos");
+    expect(btn.textContent).toBe("Perfil");
   });
 
   it("en and es share the same top-level keys", () => {

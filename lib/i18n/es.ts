@@ -3,7 +3,7 @@ import type { Dictionary } from "./types";
 export const es: Dictionary = {
   nav: {
     brandSub: "Full Stack",
-    work: "Trabajos",
+    work: "Landing Pages",
     about: "Perfil",
     stack: "Stack",
     ai: "IA",
@@ -67,11 +67,16 @@ export const es: Dictionary = {
   },
   work: {
     no: "(04)",
-    label: "Trabajos",
+    label: "Landing Pages",
     meta: "Selección 2024 / 25",
     client: "Cliente",
     product: "Producto",
     visit: "Visitar sitio",
+    descriptions: {
+      enippon: "Landing page para una agencia de viajes.",
+      chimbela: "Landing page.",
+      instacheck: "Aplicación completa que desarrollé de punta a punta: app mobile, web y backend.",
+    },
   },
   experience: {
     no: "(03)",

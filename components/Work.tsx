@@ -29,6 +29,7 @@ function ProjectCard({ p, i, t }: { p: Project; i: number; t: Dictionary }) {
       <div className="work__body">
         <span className="work__no">/ 0{i + 1}</span>
         <h3 className="work__title">{p.name}</h3>
+        {t.work.descriptions[p.id] && <p className="work__desc">{t.work.descriptions[p.id]}</p>}
         <ul className="work__tags">
           {p.tags.map((tag) => (
             <li key={tag} className="tag">

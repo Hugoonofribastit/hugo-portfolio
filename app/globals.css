@@ -1082,8 +1082,15 @@ h1.hero__title .accentword {
   letter-spacing: -0.02em;
   line-height: 0.95;
   font-size: clamp(2.2rem, 5vw, 3.8rem);
-  margin: 10px 0 16px;
+  margin: 10px 0 14px;
   transition: transform 0.4s var(--ease);
+}
+.work__desc {
+  font-size: clamp(0.95rem, 1.2vw, 1.08rem);
+  color: var(--ink-2);
+  line-height: 1.5;
+  max-width: 44ch;
+  margin: 0 0 22px;
 }
 .work:hover .work__title {
   transform: translateX(8px);

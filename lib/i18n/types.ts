@@ -66,6 +66,7 @@ export interface Dictionary {
     client: string;
     product: string;
     visit: string;
+    descriptions: Record<string, string>;
   };
   experience: {
     no: string;
