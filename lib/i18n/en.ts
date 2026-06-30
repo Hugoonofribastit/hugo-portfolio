@@ -97,6 +97,18 @@ export const en: Dictionary = {
         ],
       },
       {
+        period: "2025 · Freelance",
+        org: "V-Duels",
+        role: "Full Stack & Cloud (end-to-end)",
+        client: "Streaming and user-competition app · a competitive social network with communities",
+        points: [
+          "Mobile app in Expo / React Native (expo-router, NativeWind, React Query, Zustand) with in-app video duels (Vision Camera) and IAP via RevenueCat.",
+          "Serverless backend with Hono on AWS Lambda, Drizzle ORM + PostgreSQL (RDS), Cognito auth and live WebSockets via API Gateway.",
+          "Event-driven architecture with S3, EventBridge, SQS and the Bunny video CDN; observability via Lambda Powertools and CloudWatch.",
+          "Infrastructure as code with SST v4 (Pulumi); shared Zod + Drizzle contracts; tested with Vitest + Testcontainers.",
+        ],
+      },
+      {
         period: "2023–Present",
         org: "Freelance",
         role: "Full Stack Developer",
