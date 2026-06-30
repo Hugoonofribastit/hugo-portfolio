@@ -17,7 +17,7 @@ export function About() {
       <div className="wrap">
         <SectionHeader no={t.about.no} title={t.about.label} meta={t.about.meta} />
         <div className="about__grid">
-          <InView as="figure" className="portrait reveal clip">
+          <InView as="figure" className="portrait reveal">
             <div className="portrait__frame">
               <Image
                 src={profile.photo}
