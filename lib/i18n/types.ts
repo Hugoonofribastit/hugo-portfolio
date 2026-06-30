@@ -7,6 +7,7 @@ export interface Dictionary {
     about: string;
     stack: string;
     ai: string;
+    experience: string;
     contact: string;
     cv: string;
     menu: string;
@@ -65,6 +66,12 @@ export interface Dictionary {
     client: string;
     product: string;
     visit: string;
+  };
+  experience: {
+    no: string;
+    label: string;
+    meta: string;
+    items: { period: string; org: string; role: string; client: string; points: string[] }[];
   };
   contact: {
     no: string;

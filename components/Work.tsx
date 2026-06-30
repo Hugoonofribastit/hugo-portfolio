@@ -55,7 +55,7 @@ export function Work() {
   return (
     <section className="sec" id="work">
       <ParallaxItem className="ghost-no" speed={0.05}>
-        03
+        04
       </ParallaxItem>
       <div className="wrap">
         <SectionHeader no={t.work.no} title={t.work.label} meta={t.work.meta} />

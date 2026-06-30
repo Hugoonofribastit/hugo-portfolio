@@ -16,7 +16,7 @@ await page.screenshot({ path: "design-explorations/shots/site-1-hero.png" });
 const targets = [
   { sel: "#about", out: "site-2-about.png" },
   { sel: "#stack", out: "site-3-stack.png" },
-  { sel: "#ai", out: "site-4-ai.png" },
+  { sel: "#experience", out: "site-4-experience.png" },
   { sel: "#work", out: "site-5-work.png" },
   { sel: "#contact", out: "site-6-contact.png" },
 ];

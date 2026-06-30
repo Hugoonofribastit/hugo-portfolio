@@ -16,7 +16,7 @@ export function Contact() {
   return (
     <section className="sec contact" id="contact">
       <ParallaxItem className="ghost-no" speed={0.05}>
-        04
+        05
       </ParallaxItem>
       <div className="wrap">
         <SectionHeader no={t.contact.no} title={t.contact.label} meta={t.contact.meta} />
