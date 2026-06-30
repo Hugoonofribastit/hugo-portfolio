@@ -136,7 +136,7 @@ export const en: Dictionary = {
     label: "Contact",
     meta: "Let's talk",
     title: "Let's build something",
-    body: "Open to full-stack roles and freelance projects. The fastest way to reach me is email.",
+    body: "Open to full-stack roles and freelance projects. The fastest way to reach me is by email.",
     emailNote: "I reply within the day",
     download: "Download CV",
   },
