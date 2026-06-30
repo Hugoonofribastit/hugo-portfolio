@@ -4,7 +4,7 @@ import { chromium } from "playwright";
 import { mkdirSync } from "node:fs";
 
 const targets = [
-  { url: "https://enippon-web.vercel.app/", out: "public/projects/enippon.png" },
+  { url: "https://www.enippontours.com/", out: "public/projects/enippon.png" },
   { url: "https://rebozadoreschimbela.com/", out: "public/projects/chimbela.png" },
   { url: "https://dev.instacheckapp.com/", out: "public/projects/instacheck.png" },
 ];

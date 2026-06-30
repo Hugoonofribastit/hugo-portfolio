@@ -41,7 +41,7 @@ export const projects: Project[] = [
     id: "enippon",
     name: "enippon",
     kind: "Client",
-    url: "https://enippon-web.vercel.app/",
+    url: "https://www.enippontours.com/",
     image: "/projects/enippon.png",
     tags: ["Next.js", "Landing", "Animation"],
   },
