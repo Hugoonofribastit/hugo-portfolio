@@ -139,6 +139,8 @@ export const es: Dictionary = {
     body: "Disponible para roles full-stack y proyectos freelance. La forma más rápida de contactarme es por email.",
     emailNote: "Respondo en el día",
     download: "Descargar CV",
+    copy: "Copiar",
+    copied: "¡Copiado!",
   },
   footer: {
     brandSub: "· 2026",

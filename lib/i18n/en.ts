@@ -139,6 +139,8 @@ export const en: Dictionary = {
     body: "Open to full-stack roles and freelance projects. The fastest way to reach me is by email.",
     emailNote: "I reply within the day",
     download: "Download CV",
+    copy: "Copy",
+    copied: "Copied!",
   },
   footer: {
     brandSub: "· 2026",

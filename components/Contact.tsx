@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { useT } from "@/lib/i18n/useT";
 import { profile, socials } from "@/lib/content";
 import { InView } from "./ui/motion";
@@ -9,9 +10,21 @@ import { MagneticLink } from "./MagneticLink";
 
 export function Contact() {
   const t = useT();
+  const [copied, setCopied] = useState(false);
   const href = (label: string, fallback: string) =>
     socials.find((s) => s.label === label)?.href ?? fallback;
   const email = href("Email", "mailto:hugo.onofribastit@gmail.com");
+  const whatsapp = href("WhatsApp", "https://wa.me/5492235769886");
+
+  const copyEmail = async () => {
+    try {
+      await navigator.clipboard.writeText(profile.email);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      /* clipboard unavailable */
+    }
+  };
 
   return (
     <section className="sec contact" id="contact">
@@ -33,6 +46,9 @@ export function Contact() {
           <MagneticLink href={email} className="magnetic">
             Email <span className="arr">↗</span>
           </MagneticLink>
+          <MagneticLink href={whatsapp} target="_blank" rel="noopener noreferrer" className="btn--ghost magnetic">
+            WhatsApp
+          </MagneticLink>
           <MagneticLink href={href("LinkedIn", "#")} target="_blank" rel="noopener noreferrer" className="btn--ghost magnetic">
             LinkedIn
           </MagneticLink>
@@ -43,7 +59,12 @@ export function Contact() {
 
         <InView className="contact__mail reveal" delay={200}>
           <a href={email}>{profile.email}</a>
-          <span>{t.contact.emailNote}</span>
+          <div className="contact__mail-aside">
+            <button type="button" className="copy-btn" onClick={copyEmail} aria-live="polite">
+              {copied ? t.contact.copied : t.contact.copy}
+            </button>
+            <span>{t.contact.emailNote}</span>
+          </div>
         </InView>
       </div>
     </section>

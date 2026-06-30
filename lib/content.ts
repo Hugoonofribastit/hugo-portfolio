@@ -93,6 +93,7 @@ export const timeline: TimelineItem[] = [
 export const socials: SocialLink[] = [
   { label: "Email", href: "mailto:hugo.onofribastit@gmail.com" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/hugoonofrib/" },
+  { label: "WhatsApp", href: "https://wa.me/5492235769886" },
 ];
 
 // Tech names for the marquee ticker (language-neutral).

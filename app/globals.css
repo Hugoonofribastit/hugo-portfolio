@@ -1169,6 +1169,29 @@ h1.hero__title .accentword {
   text-transform: uppercase;
   color: var(--ink-3);
 }
+.contact__mail-aside {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.copy-btn {
+  font-family: var(--f-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid var(--line-strong);
+  border-radius: 2px;
+  padding: 7px 12px;
+  cursor: pointer;
+  transition: border-color 0.25s var(--ease), color 0.25s var(--ease), background 0.25s var(--ease);
+}
+.copy-btn:hover {
+  border-color: var(--brand);
+  color: var(--brand);
+  background: var(--brand-tint);
+}
 
 /* ============================================================ FOOTER */
 .footer {

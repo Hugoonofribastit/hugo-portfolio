@@ -82,6 +82,8 @@ export interface Dictionary {
     body: string;
     emailNote: string;
     download: string;
+    copy: string;
+    copied: string;
   };
   footer: {
     brandSub: string;
