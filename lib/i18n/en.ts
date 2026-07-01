@@ -75,7 +75,7 @@ export const en: Dictionary = {
     descriptions: {
       enippon: "Landing page for a travel agency.",
       chimbela: "Landing page.",
-      instacheck: "Complete application I built end-to-end: mobile app, web and backend.",
+      instacheck: "Asset tracking (machines, operators, products). Complete end-to-end app: mobile, web and backend.",
     },
   },
   experience: {
@@ -109,12 +109,24 @@ export const en: Dictionary = {
         ],
       },
       {
+        period: "2025 · Freelance",
+        org: "Instacheck",
+        role: "Full Stack & Cloud (end-to-end)",
+        client: "Asset tracking (machines, operators, products) for companies, factories and construction sites",
+        points: [
+          "Backend in Kotlin + Spring Boot 3.2 (hexagonal architecture), PostgreSQL/Flyway and Redis.",
+          "Mobile app in Expo / React Native with Zustand and React Query.",
+          "Admin and public web apps in Next.js 15 + React 19, Tailwind/shadcn and TanStack Query.",
+          "Notifications with Kotlin + Spring Boot + SQS → Expo Push (Mongo/DynamoDB).",
+          "Infrastructure with Pulumi (Python) on AWS sa-east-1: ECS Fargate + Aurora.",
+        ],
+      },
+      {
         period: "2023–Present",
         org: "Freelance",
         role: "Full Stack Developer",
         client: "Web, mobile and cloud for clients and my own products",
         points: [
-          "Instacheck: task and operator-activity tracking (React Native, Next.js, Kotlin, MongoDB, PostgreSQL).",
           "E-commerce sites built with React and MercadoPago checkout.",
           "Course and student management platforms (React, Node.js).",
         ],

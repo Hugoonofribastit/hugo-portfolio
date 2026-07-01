@@ -75,7 +75,7 @@ export const es: Dictionary = {
     descriptions: {
       enippon: "Landing page para una agencia de viajes.",
       chimbela: "Landing page.",
-      instacheck: "Aplicación completa que desarrollé de punta a punta: app mobile, web y backend.",
+      instacheck: "Control de activos (máquinas, operarios, productos). App completa de punta a punta: mobile, web y backend.",
     },
   },
   experience: {
@@ -109,12 +109,24 @@ export const es: Dictionary = {
         ],
       },
       {
+        period: "2025 · Freelance",
+        org: "Instacheck",
+        role: "Full Stack y Cloud (de punta a punta)",
+        client: "Control de activos (máquinas, operarios, productos) para empresas, fábricas y obras",
+        points: [
+          "Backend en Kotlin + Spring Boot 3.2 (arquitectura hexagonal), PostgreSQL/Flyway y Redis.",
+          "App mobile en Expo / React Native con Zustand y React Query.",
+          "Webs (admin y pública) en Next.js 15 + React 19, Tailwind/shadcn y TanStack Query.",
+          "Notificaciones con Kotlin + Spring Boot + SQS → Expo Push (Mongo/DynamoDB).",
+          "Infraestructura con Pulumi (Python) en AWS sa-east-1: ECS Fargate + Aurora.",
+        ],
+      },
+      {
         period: "2023–Presente",
         org: "Freelance",
         role: "Desarrollador Full Stack",
         client: "Web, mobile y cloud para clientes y productos propios",
         points: [
-          "Instacheck: control de tareas y actividad de operarios (React Native, Next.js, Kotlin, MongoDB, PostgreSQL).",
           "Sitios e-commerce con React y checkout de MercadoPago.",
           "Plataformas de gestión de cursos y alumnos (React, Node.js).",
         ],

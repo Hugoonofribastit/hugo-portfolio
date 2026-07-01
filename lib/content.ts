@@ -59,7 +59,7 @@ export const projects: Project[] = [
     kind: "Product",
     url: "https://dev.instacheckapp.com/",
     image: "/projects/instacheck.png",
-    tags: ["React Native", "Next.js", "Kotlin", "MongoDB", "PostgreSQL"],
+    tags: ["Kotlin", "Spring Boot", "Expo", "Next.js", "AWS"],
   },
   {
     id: "pharmacy",
