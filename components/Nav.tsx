@@ -24,7 +24,7 @@ export function Nav() {
   }, []);
 
   return (
-    <header className={`nav${scrolled ? " scrolled" : ""}`} id="top">
+    <header className={`nav${scrolled ? " scrolled" : ""}`}>
       <div className="nav__in">
         <a className="brand" href="#top" aria-label="Hugo Onofri Bastit, home">
           <span className="brand__mark">HO</span>

@@ -10,7 +10,7 @@ export function Hero() {
   const parts = t.hero.role.split(t.hero.accentWord);
 
   return (
-    <section className="hero">
+    <section className="hero" id="top">
       <ParallaxItem className="hero__glow" speed={0.1} />
       <div className="wrap hero__inner">
         <div className="hero__main">
